@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    tools:context=".MainActivity"
+    tools:ignore="ExtraText">
+
+    <TextView
+        android:id="@+id/chose_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/chose_what_to_do"
+
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/without_sign_in"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/continue_without_sign_in" />
+    <!--android:onClick = "toWithoutLayout"-->
+
+
+    <EditText
+        android:id="@+id/github_username"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:autofillHints=""
+        android:hint="@string/enter_username"
+        android:inputType="text" />
+    <!-- android:visibility="invisible" -->
+    <Button
+        android:id="@+id/search_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/search" />
+
+    <!--
+    <Button
+        android:id="@+id/with_sign_in"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Continue with sign in"
+        />
+    -->
+</LinearLayout>

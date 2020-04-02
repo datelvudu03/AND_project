@@ -1,0 +1,2 @@
+rootProject.name='MyDU'
+include ':app'

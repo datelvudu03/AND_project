@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MyDU</string>
+    <string name="search">Search</string>
+    <string name="enter_username">ENTER USERNAME</string>
+    <string name="continue_without_sign_in">Continue without sign in</string>
+    <string name="chose_what_to_do">Chose what to do:</string>
+    <string name="list_of_repositories">List of repositories:</string>
+</resources>
